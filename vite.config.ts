@@ -4,11 +4,10 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/arif-portfolio/',
+  base: '/Portfolio-Arif_Azimi/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
 })
-
